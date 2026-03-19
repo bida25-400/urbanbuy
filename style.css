@@ -1,0 +1,49 @@
+selector{
+    property: value;
+}
+#body{
+    width:100%;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.006px 0.002px;
+    background: #E3E6F3;
+    box-shadow: 0.1 0.06px 10px rgba(0., 0, 0, 0);
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 80px;
+    height:auto;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:rgb(12, 12, 12);
+}
+
+#navbar li a:hover{
+    color:rgb(18, 141, 148);
+}
+
+
+
+
