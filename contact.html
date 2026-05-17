@@ -58,39 +58,61 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14501.088273013862!2d25.893136560916872!3d-24.683172468432645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebb5bf391895e4b%3A0xb06cd8ead6c3855!2sFairgrounds%20Mall!5e0!3m2!1sen!2sbw!4v1776948842596!5m2!1sen!2sbw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
+
+        <section id="Newsletter" class="section-p1 section-m1" >
+        <div class="newstext">
+            <h4>Sign Up For Updates</h4>
+            <p>Get E-mail updates about our latest shop and <span> special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email adress">
+            <button onclick="openModal()">Sign Up</button>
+        </div>
+        <div id="authModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+
+    <iframe src="sign in.html" width="100%" height="500px" frameborder="0" ></iframe>
+
+  </div>
+</div>
+    </section>
     
     <footer class="section-p1">
         <div class="col">
             <img class="logo" src="img/logo.png." alt="">
             <h4>Contact</h4>
-            <p><strong>Adress: </strong>Gaborone,Botswana plot 332, fairgrounds</p>
+            <p><strong>Adress: </strong>Gaborone,Botswana plot 332, fairgrounds mall</p>
             <p><strong>Phone: </strong>(+267) 78 327 832 /(+276) 73 317 846</p>
-            <p><strong>Hours</strong>07:00 - 18:00, Mon - Sun </p>
+            <p><strong>Hours: </strong>07:00 - 18:00, Mon - Sun </p>
             <div class="follow">
                 <h4>follow Us</h4>
                 <div class="icon">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-whatsapp"></i>
-                    <i class="fab fa-twitter"></i>
+                    <a href="https://wa.me/26778327832" target="">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61589076389841" target="">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https:t.me/urbanbuybotswana" target="">
+                        <i class="fab fa-telegram"></i>
+                    </a>
                 </div>
             </div>
         </div>
 
          <div class="col">
             <h4>About</h4>
-            <a href="#">About Us</a>
-            <a href="#">Shop</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
-            <a href="#">Feedback</a>
+            <li><a href="about.html">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="cart.html">Cart</a></li>
          </div>
 
           <div class="col">
             <h4>My Account</h4>
             <a href="#">Sign in</a>
-            <a href="#">View Cart</a>
-            <a href="#">My Wishlist</a>
-            <a href="#">Track My Order</a>
             <a href="#">Help</a>
          </div>
 
@@ -98,5 +120,8 @@
             <p>@2026 Urbanbuy Botswana</p>
          </div>
     </footer>
+</div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
